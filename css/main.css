@@ -87,6 +87,38 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+   body {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+  }
+  
+  #box {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:400px;
+    height:400px;
+    background:green;
+    border-radius:20px;
+  }
+  
+  #box p {
+    color:white;
+    font-size:20px;
+  }
+  
+  button {
+    border:none;
+    padding:20px;
+    border-radius:10px;
+   background:aquamarine;
+  }
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
